@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Component System">
+      <UniqueIdentifier>{aea4d9de-1e5b-40c5-b069-a2e2b4996725}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Managers">
+      <UniqueIdentifier>{7139e1f4-2a35-4929-b11c-25b976271a06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Actions">
+      <UniqueIdentifier>{2c3922c7-6af2-48c7-8f74-0c032738e6e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Actors">
+      <UniqueIdentifier>{3f899631-16f3-4852-9624-937791fdf343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Globals">
+      <UniqueIdentifier>{9a259138-5e20-4ee9-9e89-7859dbcf694e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Includes\ButtonComponent.cpp">
+      <Filter>Header Files\Component System</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\ChangeableTextComponent.cpp">
+      <Filter>Header Files\Component System</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\BackdropComponent.cpp">
+      <Filter>Header Files\Component System</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\MainWindowComponent.cpp">
+      <Filter>Header Files\Component System</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\NewRoomButtonComponent.cpp">
+      <Filter>Header Files\Component System</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\RoomButtonComponent.cpp">
+      <Filter>Header Files\Component System</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\RoomWindowComponent.cpp">
+      <Filter>Header Files\Component System</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\SideBarComponent.cpp">
+      <Filter>Header Files\Component System</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\TextComponent.cpp">
+      <Filter>Header Files\Component System</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\TextureComponent.cpp">
+      <Filter>Header Files\Component System</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\WindowComponent.cpp">
+      <Filter>Header Files\Component System</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\ProgramManager.cpp">
+      <Filter>Header Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\FileSystem.cpp">
+      <Filter>Header Files\Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\Program.cpp">
+      <Filter>Header Files\Globals</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Includes\ButtonComponent.h">
+      <Filter>Header Files\Component System</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Component.h">
+      <Filter>Header Files\Component System</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\ComponentType.h">
+      <Filter>Header Files\Component System</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\ChangeableTextComponent.h">
+      <Filter>Header Files\Component System</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\BackdropComponent.h">
+      <Filter>Header Files\Component System</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\MainWindowComponent.h">
+      <Filter>Header Files\Component System</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\NewRoomButtonComponent.h">
+      <Filter>Header Files\Component System</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\RoomButtonComponent.h">
+      <Filter>Header Files\Component System</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\RoomWindowComponent.h">
+      <Filter>Header Files\Component System</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\SideBarComponent.h">
+      <Filter>Header Files\Component System</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\TextComponent.h">
+      <Filter>Header Files\Component System</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\TextureComponent.h">
+      <Filter>Header Files\Component System</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\WindowComponent.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\ProgramManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\TextureManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\WindowManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\FileSystem.h">
+      <Filter>Header Files\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\InitFunctions.h">
+      <Filter>Header Files\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Program.h">
+      <Filter>Header Files\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\ActionType.h">
+      <Filter>Header Files\Actions</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,5 @@
+Images/Main Window/Backdrop - Cork.png #MAIN_BACKDROP
+Images/Main Window/Backdrop - Cork.png #ROOM_BACKDROP
+Images/Main Window/Sidebar - Chalkboard.png #SIDEBAR
+Images/Login Screen/Sidebar-Button.png #CREATE_ROOM_BUTTON
+Images/Login Screen/Grey-Button---spritesheet.png #ROOM_BUTTON

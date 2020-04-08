@@ -1,0 +1,15 @@
+Hotel Management
+1280 720
+4
+MAIN_BACKDROP
+Images/Main Window/Backdrop - Cork.png#
+0 0 1280 720
+SIDEBAR
+Images/Main Window/Sidebar - Chalkboard.png#
+0 0 280 720
+ROOM_BUTTON
+Files/Rooms/RoomButtons.txt#
+280 0 200 49
+CREATE_ROOM_BUTTON
+Files/Data/SidebarButton.txt#
+0 0 280 50

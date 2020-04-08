@@ -1,0 +1,12 @@
+Images/Login Screen/Grey-Button---spritesheet.png#
+0 0 190 49
+3
+Fonts/Raleway/Raleway-SemiBold.ttf#
+0 0 0
+0 4
+Room 22222222
+280 0 200 49
+Room 2222
+480 0 200 49
+Room 6666
+680 0 200 49

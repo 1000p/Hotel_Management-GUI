@@ -1,0 +1,52 @@
+﻿ButtonComponent.obj : error LNK2019: unresolved external symbol SDL_GetMouseState referenced in function "public: virtual void __cdecl ButtonComponent::handleEvent(union SDL_Event *)" (?handleEvent@ButtonComponent@@UEAAXPEATSDL_Event@@@Z)
+ButtonComponent.obj : error LNK2019: unresolved external symbol SDL_RenderCopy referenced in function "public: virtual void __cdecl ButtonComponent::draw(struct SDL_Renderer *)" (?draw@ButtonComponent@@UEAAXPEAUSDL_Renderer@@@Z)
+TextComponent.obj : error LNK2001: unresolved external symbol SDL_RenderCopy
+TextureComponent.obj : error LNK2001: unresolved external symbol SDL_RenderCopy
+TextureComponent.obj : error LNK2001: unresolved external symbol SDL_GetError
+Main.obj : error LNK2001: unresolved external symbol SDL_GetError
+MainWindowComponent.obj : error LNK2001: unresolved external symbol SDL_GetError
+Program.obj : error LNK2001: unresolved external symbol SDL_GetError
+RoomWindowComponent.obj : error LNK2001: unresolved external symbol SDL_GetError
+TextureComponent.obj : error LNK2001: unresolved external symbol SDL_FreeSurface
+MainWindowComponent.obj : error LNK2001: unresolved external symbol SDL_FreeSurface
+RoomButtonComponent.obj : error LNK2001: unresolved external symbol SDL_FreeSurface
+RoomWindowComponent.obj : error LNK2001: unresolved external symbol SDL_FreeSurface
+TextComponent.obj : error LNK2001: unresolved external symbol SDL_FreeSurface
+MainWindowComponent.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function "public: __cdecl MainWindowComponent::MainWindowComponent(void)" (??0MainWindowComponent@@QEAA@XZ)
+RoomWindowComponent.obj : error LNK2001: unresolved external symbol SDL_CreateWindow
+MainWindowComponent.obj : error LNK2019: unresolved external symbol SDL_GetWindowSize referenced in function "private: void __cdecl MainWindowComponent::inerCalculateArea(void)" (?inerCalculateArea@MainWindowComponent@@AEAAXXZ)
+MainWindowComponent.obj : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function "public: __cdecl MainWindowComponent::MainWindowComponent(void)" (??0MainWindowComponent@@QEAA@XZ)
+RoomWindowComponent.obj : error LNK2001: unresolved external symbol SDL_CreateRenderer
+TextureComponent.obj : error LNK2001: unresolved external symbol SDL_CreateTextureFromSurface
+MainWindowComponent.obj : error LNK2001: unresolved external symbol SDL_CreateTextureFromSurface
+RoomButtonComponent.obj : error LNK2001: unresolved external symbol SDL_CreateTextureFromSurface
+RoomWindowComponent.obj : error LNK2001: unresolved external symbol SDL_CreateTextureFromSurface
+TextComponent.obj : error LNK2001: unresolved external symbol SDL_CreateTextureFromSurface
+MainWindowComponent.obj : error LNK2019: unresolved external symbol IMG_Load referenced in function "public: static struct SDL_Texture * __cdecl TextureManager::loadTexture(struct SDL_Renderer *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?loadTexture@TextureManager@@SAPEAUSDL_Texture@@PEAUSDL_Renderer@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+RoomButtonComponent.obj : error LNK2001: unresolved external symbol IMG_Load
+RoomWindowComponent.obj : error LNK2001: unresolved external symbol IMG_Load
+TextureComponent.obj : error LNK2001: unresolved external symbol IMG_Load
+MainWindowComponent.obj : error LNK2019: unresolved external symbol TTF_Init referenced in function "private: void __cdecl MainWindowComponent::addRoomButtons(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,enum ComponentType,struct SDL_Rect &)" (?addRoomButtons@MainWindowComponent@@AEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4ComponentType@@AEAUSDL_Rect@@@Z)
+MainWindowComponent.obj : error LNK2019: unresolved external symbol TTF_OpenFont referenced in function "public: __cdecl NewRoomButtonComponent::NewRoomButtonComponent(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct SDL_Rect &,struct SDL_Rect &,enum ComponentType,class MainWindowComponent *)" (??0NewRoomButtonComponent@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAUSDL_Rect@@1W4ComponentType@@PEAVMainWindowComponent@@@Z)
+Program.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function "public: void __cdecl Program::handleEvent(void)" (?handleEvent@Program@@QEAAXXZ)
+Program.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function "public: bool __cdecl Program::init(void)" (?init@Program@@QEAA_NXZ)
+RoomButtonComponent.obj : error LNK2019: unresolved external symbol SDL_ShowWindow referenced in function "public: virtual void __cdecl RoomButtonComponent::update(class Component *)" (?update@RoomButtonComponent@@UEAAXPEAVComponent@@@Z)
+RoomWindowComponent.obj : error LNK2019: unresolved external symbol SDL_GetWindowID referenced in function "public: virtual void __cdecl RoomWindowComponent::init(void)" (?init@RoomWindowComponent@@UEAAXXZ)
+WindowComponent.obj : error LNK2001: unresolved external symbol SDL_GetWindowID
+RoomWindowComponent.obj : error LNK2019: unresolved external symbol SDL_SetWindowData referenced in function "public: static void __cdecl WindowManager::linkWindowComponent(struct SDL_Window *,class WindowComponent *)" (?linkWindowComponent@WindowManager@@SAXPEAUSDL_Window@@PEAVWindowComponent@@@Z)
+RoomWindowComponent.obj : error LNK2019: unresolved external symbol SDL_SetRenderDrawColor referenced in function "public: virtual void __cdecl RoomWindowComponent::init(void)" (?init@RoomWindowComponent@@UEAAXXZ)
+WindowComponent.obj : error LNK2001: unresolved external symbol SDL_SetRenderDrawColor
+RoomWindowComponent.obj : error LNK2019: unresolved external symbol SDL_RenderClear referenced in function "public: virtual void __cdecl RoomWindowComponent::init(void)" (?init@RoomWindowComponent@@UEAAXXZ)
+WindowComponent.obj : error LNK2001: unresolved external symbol SDL_RenderClear
+TextComponent.obj : error LNK2019: unresolved external symbol TTF_RenderText_Solid referenced in function "public: __cdecl TextComponent::TextComponent(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct SDL_Color &,struct _TTF_Font *,struct SDL_Point &,struct SDL_Rect &,class Component *)" (??0TextComponent@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAUSDL_Color@@PEAU_TTF_Font@@AEAUSDL_Point@@AEAUSDL_Rect@@PEAVComponent@@@Z)
+TextureComponent.obj : error LNK2019: unresolved external symbol SDL_DestroyTexture referenced in function "public: virtual void __cdecl TextureComponent::close(void)" (?close@TextureComponent@@UEAAXXZ)
+WindowComponent.obj : error LNK2019: unresolved external symbol SDL_DestroyWindow referenced in function "public: virtual void __cdecl WindowComponent::close(void)" (?close@WindowComponent@@UEAAXXZ)
+WindowComponent.obj : error LNK2019: unresolved external symbol SDL_RenderPresent referenced in function "public: void __cdecl WindowComponent::draw(void)" (?draw@WindowComponent@@QEAAXXZ)
+WindowComponent.obj : error LNK2019: unresolved external symbol SDL_DestroyRenderer referenced in function "public: virtual void __cdecl WindowComponent::close(void)" (?close@WindowComponent@@UEAAXXZ)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\loopg\Local Project\Windows Management System\Hotel-Management\SDL\SDL 2.0\lib\x86\SDL2.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\loopg\Local Project\Windows Management System\Hotel-Management\SDL\SDL 2.0\lib\x86\SDL2main.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\loopg\Local Project\Windows Management System\Hotel-Management\SDL\SDL2_image-2.0.5\lib\x86\SDL2_image.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\loopg\Local Project\Windows Management System\Hotel-Management\SDL\SDL2_ttf-2.0.15\lib\x86\SDL2_ttf.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\loopg\Local Project\Windows Management System\Hotel-Management\SDL\SDL2_mixer-2.0.4\lib\x86\SDL2_mixer.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\loopg\Local Project\Windows Management System\Hotel-Management\x64\Debug\Windows Management System.exe : fatal error LNK1120: 24 unresolved externals

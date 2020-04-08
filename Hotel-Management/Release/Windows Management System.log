@@ -1,0 +1,8 @@
+﻿  Main.cpp
+C:\Users\loopg\Local Project\Windows Management System\Program.h(5,10): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Program.cpp
+C:\Users\loopg\Local Project\Windows Management System\Program.h(5,10): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  TextureComponent.cpp
+C:\Users\loopg\Local Project\Windows Management System\TextureComponent.h(4,10): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  WindowComponent.cpp
+C:\Users\loopg\Local Project\Windows Management System\WindowComponent.h(5,10): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory

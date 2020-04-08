@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\loopg\Local Project\vs_dev_lib\SDL 2.0\include\</FILEPATH>
+      <FILENAME>SDL_rect.h</FILENAME>
+      <LINE>102</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'SDL_bool' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>SDL_PointInRect</FUNCTION>
+    <DECORATED>SDL_PointInRect</DECORATED>
+    <FUNCLINE>99</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\loopg\Local Project\Windows Management System\</FILEPATH>
+      <FILENAME>RoomButtonComponent.cpp</FILENAME>
+      <LINE>5</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'RoomButtonComponent::_renderer' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>RoomButtonComponent::{ctor}</FUNCTION>
+    <DECORATED>??0RoomButtonComponent@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAUSDL_Rect@@1W4ComponentType@@PAVWindowComponent@@@Z</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>RoomButtonComponent::_renderer</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\loopg\Local Project\Windows Management System\</FILEPATH>
+      <FILENAME>Component.h</FILENAME>
+      <LINE>25</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Component::_type' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Component::{ctor}</FUNCTION>
+    <DECORATED>??0Component@@QAE@XZ</DECORATED>
+    <FUNCLINE>25</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Component::_type</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\loopg\Local Project\Windows Management System\</FILEPATH>
+      <FILENAME>ButtonComponent.h</FILENAME>
+      <LINE>61</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ButtonComponent::_texture' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ButtonComponent::{ctor}</FUNCTION>
+    <DECORATED>??0ButtonComponent@@IAE@XZ</DECORATED>
+    <FUNCLINE>61</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ButtonComponent::_texture</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\loopg\Local Project\Windows Management System\</FILEPATH>
+      <FILENAME>ButtonComponent.h</FILENAME>
+      <LINE>61</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ButtonComponent::_pressed' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ButtonComponent::{ctor}</FUNCTION>
+    <DECORATED>??0ButtonComponent@@IAE@XZ</DECORATED>
+    <FUNCLINE>61</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ButtonComponent::_pressed</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\loopg\Local Project\Windows Management System\</FILEPATH>
+      <FILENAME>ButtonComponent.h</FILENAME>
+      <LINE>61</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ButtonComponent::_type' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ButtonComponent::{ctor}</FUNCTION>
+    <DECORATED>??0ButtonComponent@@IAE@XZ</DECORATED>
+    <FUNCLINE>61</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ButtonComponent::_type</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\loopg\Local Project\Windows Management System\</FILEPATH>
+      <FILENAME>ButtonComponent.h</FILENAME>
+      <LINE>61</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ButtonComponent::TODO' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ButtonComponent::{ctor}</FUNCTION>
+    <DECORATED>??0ButtonComponent@@IAE@XZ</DECORATED>
+    <FUNCLINE>61</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ButtonComponent::TODO</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\loopg\Local Project\Windows Management System\</FILEPATH>
+      <FILENAME>ButtonComponent.h</FILENAME>
+      <LINE>61</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ButtonComponent::_position' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ButtonComponent::{ctor}</FUNCTION>
+    <DECORATED>??0ButtonComponent@@IAE@XZ</DECORATED>
+    <FUNCLINE>61</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ButtonComponent::_position</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\loopg\Local Project\Windows Management System\</FILEPATH>
+      <FILENAME>ButtonComponent.h</FILENAME>
+      <LINE>61</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ButtonComponent::dstRect' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ButtonComponent::{ctor}</FUNCTION>
+    <DECORATED>??0ButtonComponent@@IAE@XZ</DECORATED>
+    <FUNCLINE>61</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ButtonComponent::dstRect</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\loopg\Local Project\Windows Management System\</FILEPATH>
+      <FILENAME>ButtonComponent.h</FILENAME>
+      <LINE>61</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ButtonComponent::srcRect' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ButtonComponent::{ctor}</FUNCTION>
+    <DECORATED>??0ButtonComponent@@IAE@XZ</DECORATED>
+    <FUNCLINE>61</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ButtonComponent::srcRect</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\loopg\Local Project\Windows Management System\</FILEPATH>
+      <FILENAME>ButtonComponent.h</FILENAME>
+      <LINE>61</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ButtonComponent::_clips' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ButtonComponent::{ctor}</FUNCTION>
+    <DECORATED>??0ButtonComponent@@IAE@XZ</DECORATED>
+    <FUNCLINE>61</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ButtonComponent::_clips</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\loopg\Local Project\Windows Management System\</FILEPATH>
+      <FILENAME>ButtonComponent.h</FILENAME>
+      <LINE>61</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ButtonComponent::_owner' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ButtonComponent::{ctor}</FUNCTION>
+    <DECORATED>??0ButtonComponent@@IAE@XZ</DECORATED>
+    <FUNCLINE>61</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ButtonComponent::_owner</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\loopg\Local Project\Windows Management System\</FILEPATH>
+      <FILENAME>ButtonComponent.h</FILENAME>
+      <LINE>61</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ButtonComponent::_text' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ButtonComponent::{ctor}</FUNCTION>
+    <DECORATED>??0ButtonComponent@@IAE@XZ</DECORATED>
+    <FUNCLINE>61</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ButtonComponent::_text</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\loopg\Local Project\Windows Management System\</FILEPATH>
+      <FILENAME>RoomButtonComponent.h</FILENAME>
+      <LINE>26</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'RoomButtonComponent::_renderer' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>RoomButtonComponent::{ctor}</FUNCTION>
+    <DECORATED>??0RoomButtonComponent@@QAE@XZ</DECORATED>
+    <FUNCLINE>26</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>RoomButtonComponent::_renderer</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,4 @@
+C:\Users\loopg\Local Project\Windows Management System\Debug\Windows Management System.exe
+C:\Users\loopg\Local Project\Windows Management System\Debug\Windows Management System.pdb
+C:\Users\loopg\Local Project\Windows Management System\Hotel-Management\Debug\Windows Management System.exe
+C:\Users\loopg\Local Project\Windows Management System\Hotel-Management\Debug\Windows Management System.pdb

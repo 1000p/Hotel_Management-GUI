@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{A5872FA5-959A-4C12-B387-AB3CE3C140AE}</ProjectGuid>
+    <RootNamespace>WindowsManagementSystem</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\loopg\Local Project\Windows Management System\Hotel-Management\Includes;C:\Users\loopg\Local Project\Windows Management System\Hotel-Management\SDL\SDL2_ttf-2.0.15\include;C:\Users\loopg\Local Project\Windows Management System\Hotel-Management\SDL\SDL2_mixer-2.0.4\include;C:\Users\loopg\Local Project\Windows Management System\Hotel-Management\SDL\SDL2_image-2.0.5\include;C:\Users\loopg\Local Project\Windows Management System\Hotel-Management\SDL\SDL 2.0\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\loopg\Local Project\Windows Management System\Hotel-Management\Includes;C:\Users\loopg\Local Project\Windows Management System\Hotel-Management\SDL\SDL2_ttf-2.0.15\lib\x86;C:\Users\loopg\Local Project\Windows Management System\Hotel-Management\SDL\SDL2_mixer-2.0.4\lib\x86;C:\Users\loopg\Local Project\Windows Management System\Hotel-Management\SDL\SDL2_image-2.0.5\lib\x86;C:\Users\loopg\Local Project\Windows Management System\Hotel-Management\SDL\SDL 2.0\lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\loopg\Local Project\Windows Management System\Hotel-Management\SDL\SDL2_ttf-2.0.15\include;C:\Users\loopg\Local Project\Windows Management System\Hotel-Management\SDL\SDL2_mixer-2.0.4\include;C:\Users\loopg\Local Project\Windows Management System\Hotel-Management\SDL\SDL2_image-2.0.5\include;C:\Users\loopg\Local Project\Windows Management System\Hotel-Management\SDL\SDL 2.0\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\loopg\Local Project\Windows Management System\Hotel-Management\SDL\SDL2_ttf-2.0.15\lib\x86;C:\Users\loopg\Local Project\Windows Management System\Hotel-Management\SDL\SDL2_mixer-2.0.4\lib\x86;C:\Users\loopg\Local Project\Windows Management System\Hotel-Management\SDL\SDL2_image-2.0.5\lib\x86;C:\Users\loopg\Local Project\Windows Management System\Hotel-Management\SDL\SDL 2.0\lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Users\loopg\Local Project\vs_dev_lib1\SDL2_ttf-2.0.15\include;C:\Users\loopg\Local Project\vs_dev_lib1\SDL2_mixer-2.0.4\include;C:\Users\loopg\Local Project\vs_dev_lib1\SDL2_image-2.0.5\include;C:\Users\loopg\Local Project\vs_dev_lib1\SDL 2.0\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\loopg\Local Project\vs_dev_lib1\SDL2_ttf-2.0.15\lib\x86;C:\Users\loopg\Local Project\vs_dev_lib1\SDL2_mixer-2.0.4\lib\x86;C:\Users\loopg\Local Project\vs_dev_lib1\SDL2_image-2.0.5\lib\x86;C:\Users\loopg\Local Project\vs_dev_lib1\SDL 2.0\lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;SDL2_mixer.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;SDL2_mixer.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;SDL2_mixer.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Includes\BackdropComponent.cpp" />
+    <ClCompile Include="Includes\ButtonComponent.cpp" />
+    <ClCompile Include="Includes\ChangeableTextComponent.cpp" />
+    <ClCompile Include="Includes\FileSystem.cpp" />
+    <ClCompile Include="Includes\Main.cpp" />
+    <ClCompile Include="Includes\MainWindowComponent.cpp" />
+    <ClCompile Include="Includes\NewRoomButtonComponent.cpp" />
+    <ClCompile Include="Includes\Program.cpp" />
+    <ClCompile Include="Includes\ProgramManager.cpp" />
+    <ClCompile Include="Includes\RoomButtonComponent.cpp" />
+    <ClCompile Include="Includes\RoomWindowComponent.cpp" />
+    <ClCompile Include="Includes\SideBarComponent.cpp" />
+    <ClCompile Include="Includes\TextComponent.cpp" />
+    <ClCompile Include="Includes\TextureComponent.cpp" />
+    <ClCompile Include="Includes\WindowComponent.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Includes\ActionType.h" />
+    <ClInclude Include="Includes\BackdropComponent.h" />
+    <ClInclude Include="Includes\ButtonComponent.h" />
+    <ClInclude Include="Includes\ChangeableTextComponent.h" />
+    <ClInclude Include="Includes\Component.h" />
+    <ClInclude Include="Includes\ComponentType.h" />
+    <ClInclude Include="Includes\FileSystem.h" />
+    <ClInclude Include="Includes\InitFunctions.h" />
+    <ClInclude Include="Includes\MainWindowComponent.h" />
+    <ClInclude Include="Includes\NewRoomButtonComponent.h" />
+    <ClInclude Include="Includes\Program.h" />
+    <ClInclude Include="Includes\ProgramManager.h" />
+    <ClInclude Include="Includes\RoomButtonComponent.h" />
+    <ClInclude Include="Includes\RoomWindowComponent.h" />
+    <ClInclude Include="Includes\SideBarComponent.h" />
+    <ClInclude Include="Includes\TextComponent.h" />
+    <ClInclude Include="Includes\TextureComponent.h" />
+    <ClInclude Include="Includes\TextureManager.h" />
+    <ClInclude Include="Includes\WindowComponent.h" />
+    <ClInclude Include="Includes\WindowManager.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

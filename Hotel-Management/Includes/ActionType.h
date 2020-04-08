@@ -1,0 +1,12 @@
+#pragma once
+
+enum class ActionType
+{
+	FILLSCREEN,
+	SKIP_FRAME,
+	AWAYS_SHOWN,
+	CLICKED,
+	MOUSE_OVER,
+	IDLE,
+	UNACTIVATED
+};
