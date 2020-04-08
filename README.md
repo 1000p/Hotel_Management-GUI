@@ -4,7 +4,7 @@
  
  The project design patterns were greatly influenced by the book I was reading at the time of development -"Game programming patterns" by Robert Nystorm. Few of the concepts mentioned in the that book I had accommodated to my program including: The Flyweight, Prototype, Singleton and State patterns and the update method sequencing pattern.
  
- ## If you want to run the application and test it on your machine (assuming that it runs Windows) download the .zip file here - [Application_Executable.zip](https://twitter.com/dbader_org)
+ ## If you want to run the application and test it on your machine (assuming that it runs Windows) download the .zip file here - [Application_Executable.zip](https://github.com/1000p/Hotel_Management-GUI/blob/master/Application_Executable.zip)
  
  * The source code is available in the Hotel-Management folder in the repository.
  
